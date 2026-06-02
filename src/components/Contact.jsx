@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser'
 
 const SERVICE_ID  = 'service_wyp3ew8'
 const TEMPLATE_ID = 'template_hajy4xt'
-const PUBLIC_KEY  = 'IaEc4q7gPVaM_hNZ'
+const PUBLIC_KEY  = 'IaEc4q7gPVaM_hNZe'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' })
