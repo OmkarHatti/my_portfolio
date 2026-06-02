@@ -4,7 +4,7 @@ const skills = [
   { icon: 'fas fa-database', name: 'Database', desc: 'MySQL, PostgreSQL', level: 75 },
   { icon: 'fa-brands fa-java', name: 'Java', desc: 'intermediate in java', level: 85 },
   { icon: 'fa-brands fa-html5', name: 'HTML', desc: 'Proficiant in HTML', level: 80 },
-  { icon: 'fa-brands fa-css', name: 'CSS', desc: 'Proficiant in CSs', level: 80 },
+  { icon: 'fa-brands fa-css3-alt', name: 'CSS', desc: 'Proficiant in CSS', level: 70 },
   { icon: 'fa-brands fa-js', name: 'JS', desc: 'Proficiant in JS', level: 80 },
   { icon: 'fas fa-database', name: 'PowerBI', desc: 'Good In Data Visualization', level: 90 },
 ]

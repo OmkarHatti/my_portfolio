@@ -8,10 +8,10 @@ const projects = [
   },
   {
     icon: 'fas fa-shopping-cart',
-    title: 'E-Commerce Platform',
+    title: 'invent-flow',
     desc: 'Full-featured online store with product catalog, shopping cart, and secure payment processing.',
     tags: ['Vue.js', 'Firebase', 'Stripe API'],
-    link: '#',
+    link: 'https://invent-flow-frontend.vercel.app/',
   },
   {
     icon: 'fas fa-tasks',

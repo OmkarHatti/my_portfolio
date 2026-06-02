@@ -10,9 +10,9 @@ export default function About() {
           <div className="about-text fade-in">
             <h3>Hello! I'm Omkar</h3>
             <p>
-              Aspiring Data Analyst skilled in SQL, Power BI, Tableau, and
-              Python. Currently pursuing MCA with a strong foundation in
-              database management and data visualization.
+              Aspiring Data Analyst skilled in PYTHON, PSQL, EXCEL, and
+              STATISTICS. Currently pursuing MCA with a strong foundation in
+              data analysis and visualization.
             </p>
             <p>
               Passionate about turning data into insights through clean visuals
