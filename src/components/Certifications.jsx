@@ -2,26 +2,26 @@ const certs = [
   
   {
     type: 'img',
-    src: 'google1.png',
+    src: '/google1.png',
     title: 'google Data Analyst Certified',
     lines: ['Google Cloud Platform', 'Issued: March 2022'],
     link: { href: 'Coursera 1 certificate.pdf', label: 'Google Data Analyst' },
   },
   {
     type: 'img',
-    src: 'python.png',
+    src: '/python.png',
     title: 'Python for Everybody',
     lines: ['Coursera', 'Issued: May 2024'],
   },
   {
     type: 'img',
-    src: 'sql.png',
+    src: '/sql.png',
     title: 'MySQL',
     lines: ['Coursera', 'Issued: May 2024'],
   },
   {
     type: 'img',
-    src: 'html5.png',
+    src: '/html5.png',
     title: 'HTML5 Certified',
     lines: ['Meta', 'Issued: January 2022'],
   },

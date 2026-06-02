@@ -5,7 +5,7 @@ export default function About() {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <div className="about-img fade-in">
-            <img src="omk.png" alt="My Image" />
+            <img src="/omk.png" alt="My Image" />
           </div>
           <div className="about-text fade-in">
             <h3>Hello! I'm Omkar</h3>
