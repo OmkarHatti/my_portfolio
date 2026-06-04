@@ -12,15 +12,15 @@ export default function Hero() {
             Transforming data into actionable insights through analytics,
             machine learning, and data-driven problem solving.
           </p>
-
-          <div className="hero-buttons">
-            <a
-              href="public/Omkar_Hatti_Resume (1).pdf"
-              className="btn btn-secondary"
-              download
-            >
-              Download Resume
-            </a>
+<div className="hero-buttons">
+  <a
+    href="/Omkar_Hatti_Resume.pdf"
+    className="btn btn-secondary"
+    download
+  >
+    Download Resume
+  </a>
+</div>
           </div>
         </div>
       </div>
