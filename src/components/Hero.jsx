@@ -21,7 +21,6 @@ export default function Hero() {
     Download Resume
   </a>
 </div>
-          </div>
         </div>
       </div>
     </section>
