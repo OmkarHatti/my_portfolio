@@ -7,10 +7,9 @@ const navItems = [
   { label: 'Projects', href: '#projects' },
   { label: 'Certifications', href: '#certifications' },
   { label: 'Contact', href: '#contact' },
-  // { label: 'bottom', href: '#bottom' },
 ]
 
-export default function Navbar() {
+export default function Navbar({ theme, setTheme }) {
   const { scrolled, menuOpen, toggleMenu, closeMenu } = useNavbar()
 
   return (
@@ -19,9 +18,11 @@ export default function Navbar() {
         <a href="#" className="logo">
           Omkar<span>Hatti</span>
         </a>
+
         <div className="menu-toggle" onClick={toggleMenu}>
           <i className="fas fa-bars"></i>
         </div>
+
         <ul className={`nav-links${menuOpen ? ' active' : ''}`}>
           {navItems.map(item => (
             <li key={item.href}>
@@ -31,6 +32,19 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
+
+        <button
+          className="theme-toggle"
+          onClick={() =>
+            setTheme(theme === 'dark' ? 'light' : 'dark')
+          }
+        >
+          <i className={
+  theme === 'dark'
+    ? 'fas fa-moon'
+    : 'fas fa-sun'
+}></i>
+        </button>
       </div>
     </nav>
   )

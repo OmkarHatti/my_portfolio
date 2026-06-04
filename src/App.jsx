@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react'
+
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -11,9 +13,18 @@ import { useScrollAnimation } from './hooks/useScrollAnimation'
 export default function App() {
   useScrollAnimation()
 
+  const [theme, setTheme] = useState(
+    localStorage.getItem('theme') || 'dark'
+  )
+
+  useEffect(() => {
+    document.body.className = theme
+    localStorage.setItem('theme', theme)
+  }, [theme])
+
   return (
     <>
-      <Navbar />
+      <Navbar theme={theme} setTheme={setTheme} />
       <Hero />
       <About />
       <Skills />
